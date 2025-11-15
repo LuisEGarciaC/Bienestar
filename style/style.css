@@ -18,7 +18,6 @@
 	/* background-attachment: fixed; */
 }
 
-
 .background-section-2 {
 	/* 1. Define la altura de la sección. Ajusta este valor según necesites. */
 	min-height: 50vh; /* 50% de la altura de la ventana (viewport height) */
@@ -78,8 +77,6 @@
 	/* background-attachment: fixed; */
 }
 
-
-
-.relacion{
-  background-color: #886C59 ;
+.relacion {
+	background-color: #886c59;
 }
