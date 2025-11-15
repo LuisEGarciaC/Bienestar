@@ -1,0 +1,63 @@
+.background-section {
+	/* 1. Define la altura de la sección. Ajusta este valor según necesites. */
+	min-height: 50vh; /* 50% de la altura de la ventana (viewport height) */
+
+	/* 2. La URL de tu imagen de fondo */
+	background-image: url("../img/hero-1.jpeg");
+
+	/* 3. Propiedad clave: Asegura que la imagen cubra toda el área */
+	background-size: cover;
+
+	/* 4. Centra la imagen */
+	background-position: center center;
+
+	/* 5. Evita que la imagen se repita */
+	background-repeat: no-repeat;
+
+	/* Opcional: Esto ayuda si tienes contenido largo y quieres que el fondo sea fijo */
+	/* background-attachment: fixed; */
+}
+
+
+.background-section-2 {
+	/* 1. Define la altura de la sección. Ajusta este valor según necesites. */
+	min-height: 50vh; /* 50% de la altura de la ventana (viewport height) */
+
+	/* 2. La URL de tu imagen de fondo */
+	background-image: url("../img/WhatsApp\ Image\ 2025-11-14\ at\ 6.41.56\ PM.jpeg");
+
+	/* 3. Propiedad clave: Asegura que la imagen cubra toda el área */
+	background-size: cover;
+
+	/* 4. Centra la imagen */
+	background-position: center center;
+
+	/* 5. Evita que la imagen se repita */
+	background-repeat: no-repeat;
+
+	/* Opcional: Esto ayuda si tienes contenido largo y quieres que el fondo sea fijo */
+	/* background-attachment: fixed; */
+}
+
+.background-section-3 {
+	/* 1. Define la altura de la sección. Ajusta este valor según necesites. */
+	min-height: 50vh; /* 50% de la altura de la ventana (viewport height) */
+
+	/* 2. La URL de tu imagen de fondo */
+	background-image: url("../img/HERO-3.jpeg");
+
+	/* 3. Propiedad clave: Asegura que la imagen cubra toda el área */
+	background-size: cover;
+
+	/* 4. Centra la imagen */
+	background-position: center center;
+
+	/* 5. Evita que la imagen se repita */
+	background-repeat: no-repeat;
+
+	/* Opcional: Esto ayuda si tienes contenido largo y quieres que el fondo sea fijo */
+	/* background-attachment: fixed; */
+}
+.relacion{
+  background-color: #886C59 ;
+}
