@@ -124,7 +124,10 @@
 		>
 			<div class="container text-center">
 				<img src="./img/logo.jpg" alt="logo de bienestar" class="pt-4" />
-				<p><span class="fw-bold">Centro de Bienestar Cognitivo</span> Mente en armonía y flujo</p>
+				<p>
+					<span class="fw-bold">Centro de Bienestar Cognitivo</span> Mente en
+					armonía y flujo
+				</p>
 				<h1 class="display-4 fs-1 fw-bold pt-2">CAMINO PARA UNA MENTE</h1>
 				<p class="display-4 fs-1 fw-bold">ACTIVA</p>
 			</div>
@@ -345,11 +348,107 @@
 				</p>
 			</div>
 		</section>
-		<footer class="text-center">
+
+		<!-- Sección de Formulario de Contacto/Cita -->
+		<section id="contacto" class="py-5">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8">
+						<h2 class="section-title text-center">Agenda tu Cita o Consulta</h2>
+						<div class="form-section">
+							<form id="appointmentForm">
+								<div class="mb-3">
+									<label for="nombre" class="form-label">Nombre Completo</label>
+									<input
+										type="text"
+										class="form-control rounded-pill"
+										id="nombre"
+										required
+									/>
+								</div>
+								<div class="row">
+									<div class="col-md-6 mb-3">
+										<label for="email" class="form-label"
+											>Correo Electrónico</label
+										>
+										<input
+											type="email"
+											class="form-control rounded-pill"
+											id="email"
+											required
+										/>
+									</div>
+									<div class="col-md-6 mb-3">
+										<label for="telefono" class="form-label">Teléfono</label>
+										<input
+											type="tel"
+											class="form-control rounded-pill"
+											id="telefono"
+										/>
+									</div>
+								</div>
+								<div class="mb-3">
+									<label for="servicio" class="form-label"
+										>Servicio de Interés</label
+									>
+									<select
+										class="form-select rounded-pill"
+										id="servicio"
+										required
+									>
+										<option selected disabled value="">
+											Seleccione una opción...
+										</option>
+										<option>Terapia Individual</option>
+										<option>Terapia de Pareja</option>
+										<option>Terapia Familiar</option>
+										<option>Consulta General</option>
+									</select>
+								</div>
+								<div class="mb-3">
+									<label for="mensaje" class="form-label"
+										>Mensaje (Opcional)</label
+									>
+									<textarea
+										class="form-control rounded-3"
+										id="mensaje"
+										rows="4"
+										placeholder="Describa brevemente su situación o motivo de consulta."
+									></textarea>
+								</div>
+								<div class="d-grid mt-4">
+									<button
+										type="submit"
+										class="btn btn-primary btn-lg rounded-pill shadow"
+									>
+										Enviar Solicitud <i class="bi bi-send-fill"></i>
+									</button>
+								</div>
+								<!-- Contenedor para mensajes de estado (usado por JS) -->
+								<div
+									id="formStatus"
+									class="mt-3 text-center d-none alert alert-success"
+								></div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="text-center relacion text-white" >
 			<h5>
-				<span class="fw-bold">Centro de Bienestar Cognitivo</span> Mente en
+				<span class="fw-bold ">Centro de Bienestar Cognitivo</span> Mente en
 				armonía y flujo @2025
 			</h5>
+			<div class="mt-2">
+				<a href="#" class="text-white mx-2"><i class="bi bi-facebook"></i></a>
+				<a href="#" class="text-white mx-2"><i class="bi bi-instagram"></i></a>
+				<a href="#" class="text-white mx-2"><i class="bi bi-twitter"></i></a>
+			</div>
+			<p class="small mt-2">
+				Teléfono: +99 9999 9999 999 99 | Correo: info@mentesana.com
+			</p>
 		</footer>
 		<!-- Optional JavaScript; choose one of the two! -->
 
